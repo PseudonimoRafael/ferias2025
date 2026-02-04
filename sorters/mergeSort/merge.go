@@ -1,4 +1,4 @@
-package mergeSRT
+package mergeSort
 
 func Merge(lista1, lista2 []int ) (mergedList []int) {
 	lenNew := len(lista1) + len(lista2)

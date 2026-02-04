@@ -1,4 +1,4 @@
-package mergeSRT
+package mergeSort
 
 func MergeSort(array []int) (ordArray []int) {
 	/*
