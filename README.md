@@ -7,8 +7,9 @@ Admito. Não sei o que esperar desse reposítório. Apenas quero um lugar pra oc
 
 #### Projetinhos
 
-- [ ] Merge sort
-- [ ] Heap Sort
+- [x] Merge sort
+- [x] Quick Sort
+- [x] Heap Sort
 - [ ] Calculadora para demonstrar o paradoxo do aniversário
 - [ ] Função hash ( Alguma delas )
 - [ ] Integral de Reimann
