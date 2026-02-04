@@ -15,9 +15,11 @@ func main() {
 	quickSort.QuickSort(listaQuick, 0, 15)
 
 	listaHeap := []int{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}
-	heapSort.BuildHeap(listaHeap, 15)
+	heapSort.BuildHeap(listaHeap)
+	fmt.Printf("\nHeapBuild:\n%v\n", listaHeap)
+	heapSort.HeapSort(listaHeap)
 
-	fmt.Printf("Merge Sort\n\nAntes: %v\n Depois: %v\n", listaDesordenada, listaMerge)
-	fmt.Printf("Quick Sort\n\nAntes: %v\n Depois: %v\n", listaDesordenada, listaQuick)
-	fmt.Printf("\nHeapBuild:\n%v", listaHeap)
+	fmt.Printf("Merge Sort\n\n%v\n", listaMerge)
+	fmt.Printf("Quick Sort\n\n%v\n", listaQuick)
+	fmt.Printf("Heap Sort\n\n%v\n", listaHeap)
 }
